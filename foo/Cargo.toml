@@ -1,0 +1,11 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Alex Burka <aburka@seas.upenn.edu>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+utils = { path = "../utils" }
+
